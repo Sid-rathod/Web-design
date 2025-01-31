@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Inc Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>track Inc</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">
+                    <span class="icon">📊</span>
+                    Dashboard
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">📄</span>
+                    Invoices
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">📝</span>
+                    Proposals
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">🛠️</span>
+                    Services
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">💳</span>
+                    Transactions
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">📁</span>
+                    Projects
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">👥</span>
+                    Customers
+                </a>
+            </nav>
+            <div class="bottom-menu">
+                <a href="#" class="nav-item">
+                    <span class="icon">⚙️</span>
+                    Settings
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">🚪</span>
+                    Log out
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="welcome">
+                    <h2>Hi, Welcome back <span class="highlight">Robert!</span></h2>
+                </div>
+                <div class="header-right">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="notification">🔔</div>
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/40" alt="Profile" class="profile-img">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Finance Overview -->
+            <section class="finance-overview">
+                <h2>Finance Overview</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <h3>$ 2,77,120</h3>
+                            <p>Sales</p>
+                        </div>
+                        <div class="stat-icon sales">📈</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <h3>$ 60,100</h3>
+                            <p>Expense</p>
+                        </div>
+                        <div class="stat-icon expense">💰</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <h3>$ 57,230</h3>
+                            <p>Profit</p>
+                        </div>
+                        <div class="stat-icon profit">📊</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <h3>$ 1,60,124</h3>
+                            <p>Income</p>
+                        </div>
+                        <div class="stat-icon income">💵</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Current Projects -->
+            <section class="current-projects">
+                <div class="section-header">
+                    <h2>Current Projects</h2>
+                    <button class="create-btn">Create</button>
+                </div>
+                <div class="projects-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Customer</th>
+                                <th>Sent Date</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Travel app design</td>
+                                <td>Jacob Jones</td>
+                                <td>28 Oct 2022</td>
+                                <td>$ 240.00</td>
+                                <td><span class="status sent">SENT</span></td>
+                            </tr>
+                            <tr>
+                                <td>UX Research for Event management app</td>
+                                <td>Wade Warren</td>
+                                <td>18 Oct 2022</td>
+                                <td>$ 120.00</td>
+                                <td><span class="status draft">DRAFT</span></td>
+                            </tr>
+                            <tr>
+                                <td>Redesign - Food delivery app</td>
+                                <td>Annette Black</td>
+                                <td>15 Oct 2022</td>
+                                <td>$ 351.00</td>
+                                <td><span class="status paid">PAID</span></td>
+                            </tr>
+                            <tr>
+                                <td>Web App - Online Learning</td>
+                                <td>Cameron Williamson</td>
+                                <td>15 Oct 2022</td>
+                                <td>$ 240.90</td>
+                                <td><span class="status paid">PAID</span></td>
+                            </tr>
+                            <tr>
+                                <td>Railway web casestudy</td>
+                                <td>Robert Fox</td>
+                                <td>13 Oct 2022</td>
+                                <td>$ 153.00</td>
+                                <td><span class="status sent">SENT</span></td>
+                            </tr>
+                            <tr>
+                                <td>Responsive web design</td>
+                                <td>Floyd Miles</td>
+                                <td>06 Oct 2022</td>
+                                <td>$ 140.90</td>
+                                <td><span class="status rejected">REJECTED</span></td>
+                            </tr>
+                            <tr>
+                                <td>Music app design</td>
+                                <td>Theresa Webb</td>
+                                <td>04 Oct 2022</td>
+                                <td>$ 345.90</td>
+                                <td><span class="status draft">DRAFT</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
